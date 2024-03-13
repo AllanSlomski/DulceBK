@@ -27,7 +27,7 @@ header {
     top: 0;
     left: 0;
     align-items: center;
-    max-width: auto;
+    max-width: 100%;
     padding: 50px 50px 50px 20px;
     background-color: rgba(143, 102, 55, 0.445)
 }
