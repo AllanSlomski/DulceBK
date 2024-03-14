@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: rgba(190, 178, 163, 0.548);
+    background-color: rgba(214, 205, 193, 0.548);
 }
 
 header {
@@ -28,7 +28,7 @@ header {
     left: 0;
     align-items: center;
     max-width: 100%;
-    padding: 50px 50px 50px 20px;
+    padding: 50px 50px 20px 50px;
     background-color: rgba(143, 102, 55, 0.445)
 }
 
@@ -45,8 +45,7 @@ header h2 {
     font-family: 'Dancing Script', 'sans-serif';
     text-align: center;
     padding-bottom: 35px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
-    
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);   
 }
 
 header ul {
