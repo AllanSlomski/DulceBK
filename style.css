@@ -9,6 +9,19 @@
     100% {opacity: 1;}
 }
 
+@media screen and (max-width:768px){ 
+    #menubar {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #esquerda li,
+    #direita li {
+        padding: 0px 5px;
+    }
+}
+
 :root {
     --fonteH1: 'Montserrat', 'sans-serif';
 }
@@ -54,12 +67,10 @@ header h2 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);   
 }
 
-#esquerda {
-    display: flex;
-}
-
+#esquerda,
 #direita {
     display: flex;
+    padding: 0px 20x;
 }
 
 #menubar {
@@ -72,13 +83,13 @@ header h2 {
 header ul li {
     position: relative;
     list-style: none;
+    padding: 0px 20px;
 }
 
 header ul li a {
     font-family: 'Montserrat', 'sans-serif';
     text-decoration: none;
-    color: black;
-    padding: 0px 20px 0px 20px;       
+    color: black;      
 }
 
 header ul li a:hover {
